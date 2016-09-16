@@ -28,7 +28,82 @@ body {
 margin:0px;
 }
 
+/**************************/
+/* ICONES PAGE D'ACCUEIL */
+/**************************/
+.operation, i.operation {
+  background:#990000;
+}
+.administration, i.administration {
+  background:#A3000A;
+}
+.relpub, i.relpub {
+  background:#AD0014;
+}
+.foncpub, i.foncpub {
+  background:#B8001F;
+}
+.rh, i.rh {
+  background:#C20029;
+}
+.defense, i.defense {
+  background:#CC0033;
+}
+/*****************************/
+/* FIN ICONES PAGE D'ACCUEIL*/
+/***************************/
+/*****************************/
+/*     ICONES MENU LATERAL  */
+/***************************/
+i.iconLat {
+  width: 35px;
+  height: 35px;
+  border-radius: 30px;
+  background-size:25px;
+  background-position: center;
+}
+i.icon.latmenu_accueil {
+    background-color:  #6f4122;
+    background-image: url("../img/icon_home.png");
+}
+i.icon.latmenu_operation {
+    background-image: url("../img/icon_operation.png");
+    background-repeat: no-repeat;
+}
+i.icon.latmenu_administration {
+    background-image: url("../img/icon_administration.png");
+    background-repeat: no-repeat;
+}
+i.icon.latmenu_relpub {
+    background-image: url("../img/icon_relpub.png");
+    background-repeat: no-repeat;
+}
+i.icon.latmenu_foncpub {
+    background-image: url("../img/icon_foncpub.png");
+    background-repeat: no-repeat;
+}
+i.icon.latmenu_rh {
+    background-image: url("../img/icon_rh.png");
+    background-repeat: no-repeat;
+}
+i.icon.latmenu_defense {
+    background-image: url("../img/icon_defense.png");
+    background-repeat: no-repeat;
+}
+i.icon.latmenu_livre {
+    background-color:  #a36841;
+    background-image: url("../img/icon_livre.png");
+    background-repeat: no-repeat;
+}
+i.icon.latmenu_sebastien {
+    background-color:  #d96371;
+    background-image: url("../img/icon_sebastien.png");
+    background-repeat: no-repeat;
+}
 
+/*****************************/
+/*       POLICES:     ;     */
+/***************************/
 .fontOpen {
   font-family: 'OpenSans', Fallback, sans-serif;
   font-size: 18px;
@@ -80,6 +155,10 @@ margin:0px;
 .ContenuTexte h3{
   color:#61432f;
 }
+
+/*****************************/
+/*       FIN POLICES:       */
+/***************************/
 .fond_icones {
   width: 35px;
   height: 35px;
@@ -90,64 +169,11 @@ margin:0px;
 .couleurLogo1 {
   color:#c9051d;
 }
-i.icon.latmenu_accueil {
-    background-color: #f4b018;
-    background-image: url("../img/icon_home.png");
-    width: 35px;
-    height: 35px;
-    border-radius: 30px;
-    background-size:25px;
-    background-position: center;
-}
-i.icon.latmenu_prevention {
-    background-color: #fc9923;
-    background-image: url("../img/icon_prevention.png");
-    width: 35px;
-    height: 35px;
-    border-radius: 30px;
-    background-size:25px;
-    background-position: center;
-}
-i.icon.latmenu_formation {
-    background-color: #faa238;
-    background-image: url("../img/icon_formation.png");
-    width: 35px;
-    height: 35px;
-    border-radius: 30px;
-    background-size:25px;
-    background-position: center;
-}
-i.icon.latmenu_operation {
-    background-color: #c67139;
-    background-image: url("../img/icon_operation.png");
-    width: 35px;
-    height: 35px;
-    border-radius: 30px;
-    background-size:25px;
-    background-position: center;
-}
-i.icon.latmenu_livre {
-    background-color:  #a36841;
-    background-image: url("../img/icon_livre.png");
-    width: 35px;
-    height: 35px;
-    border-radius: 30px;
-    background-size:25px;
-    background-position: center;
-}
-i.icon.latmenu_sebastien {
-    background-color:  #c9051d;
-    background-image: url("../img/icon_sebastien.png");
-    width: 35px;
-    height: 35px;
-    border-radius: 30px;
-    background-size:25px;
-    background-position: center;
-}
+
 
 
 .image_recueil {
-  height:38%;
+  height:25%;
   width:98%;
   background-image:url(../img/recueil.jpg);
   background-size: contain;
@@ -158,7 +184,7 @@ i.icon.latmenu_sebastien {
 /* Partie droite plus foncées = container contenant les titres */
 .labels {
   width: 48%;
-  height:56%;
+  height:45%;
   display: flex;
   justify-content:flex-end;
   flex-direction: column;
@@ -184,26 +210,7 @@ i.icon.latmenu_sebastien {
 }
 
 
-.prevention {
-  background:#052842;
-}
 
-.prevention:hover {
-  background:#c9051d;
-}
-.formation {
-  background: #02151f;
-}
-.formation:hover {
-  background:#c9051d;
-}
-
-.operation {
-  background: #051517;
-}
-.operation:hover{
-  background:#c9051d;
-}
 
 
 .livre {

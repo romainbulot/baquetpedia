@@ -32,65 +32,85 @@
               <li><a href="index.html" class="item-link close-panel">
                   <div class="item-content">
                       <div class="item-media">
-                          <i class="icon latmenu_accueil"></i></div>
+                          <i class="iconLat icon latmenu_accueil"></i></div>
                           <div class="item-inner">
                               <div class="item-title">Accueil</div>
                           </div>
                       </div>
                   </a>
               </li>
-                <li><a href="index.html" class="item-link close-panel">
-                    <div class="item-content">
-                        <div class="item-media">
-                            <i class="icon latmenu_prevention"></i></div>
-                            <div class="item-inner">
-                                <div class="item-title">Prévention</div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li><a href="index.html" class="item-link close-panel">
-                    <div class="item-content">
-                        <div class="item-media">
-                            <i class="icon latmenu_formation"></i></div>
-                            <div class="item-inner">
-                                <div class="item-title">Formation</div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li><a href="index.html" class="item-link close-panel">
-                    <div class="item-content">
-                        <div class="item-media">
-                            <i class="icon latmenu_operation"></i></div>
-                            <div class="item-inner">
-                                <div class="item-title">Opération</div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li><a href="livre.html" class="item-link close-panel">
-                    <div class="item-content">
-                        <div class="item-media">
-                            <i class="icon latmenu_livre"></i></div>
-                            <div class="item-inner">
-                                <div class="item-title">Livre</div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
+              <li><a href="index.html" class="item-link close-panel">
+                  <div class="item-content">
+                      <div class="item-media">
+                          <i class="operation iconLat icon latmenu_operation"></i></div>
+                          <div class="item-inner">
+                              <div class="item-title">Opération</div>
+                          </div>
+                      </div>
+                  </a>
+              </li>
+              <li><a href="index.html" class="item-link close-panel">
+                  <div class="item-content">
+                      <div class="item-media">
+                          <i class="administration iconLat icon latmenu_administration"></i></div>
+                          <div class="item-inner">
+                              <div class="item-title">Admin.</div>
+                          </div>
+                      </div>
+                  </a>
+              </li>
+              <li><a href="index.html" class="item-link close-panel">
+                  <div class="item-content">
+                      <div class="item-media">
+                          <i class="relpub iconLat icon latmenu_relpub"></i></div>
+                          <div class="item-inner">
+                              <div class="item-title">R°. publiques</div>
+                          </div>
+                      </div>
+                  </a>
+              </li>
+              <li><a href="index.html" class="item-link close-panel">
+                  <div class="item-content">
+                      <div class="item-media">
+                          <i class="foncpub iconLat icon latmenu_foncpub"></i></div>
+                          <div class="item-inner">
+                              <div class="item-title">F°. publique</div>
+                          </div>
+                      </div>
+                  </a>
+              </li>
+              <li><a href="index.html" class="item-link close-panel">
+                  <div class="item-content">
+                      <div class="item-media">
+                          <i class="rh iconLat icon latmenu_rh"></i></div>
+                          <div class="item-inner">
+                              <div class="item-title">RH</div>
+                          </div>
+                      </div>
+                  </a>
+              </li>
+              <li><a href="index.html" class="item-link close-panel">
+                  <div class="item-content">
+                      <div class="item-media">
+                          <i class="defense iconLat icon latmenu_defense"></i></div>
+                          <div class="item-inner">
+                              <div class="item-title">Défense</div>
+                          </div>
+                      </div>
+                  </a>
+              </li>
+
                 <li><a href="sebastien.html" class="item-link close-panel">
                     <div class="item-content">
                         <div class="item-media">
-                            <i class="icon latmenu_sebastien"></i></div>
+                            <i class="iconLat icon latmenu_sebastien"></i></div>
                             <div class="item-inner">
                                 <div class="item-title">Sébastien</div>
                             </div>
                         </div>
                     </a>
                 </li>
-                <br>
-                <br>
+
                 <li><a href="apropos.html" class="item-link close-panel">
                     <div class="item-content">
                         <div class="item-media">
@@ -137,32 +157,46 @@
 
               <div class="main">
 
-                <div class="labels prevention" onclick="mainView.router.loadPage('./prevention.html')">
-                  <span class="icon_princip" style="background-image:url(img/icon_prevention.png);">
-                  </span>
-                  <span class="titre">
-                    Prévention
-                  </span>
-                </div>
-                <div class="labels formation">
-                  <span class="icon_princip" style="background-image:url(img/icon_formation.png);">
-                  </span>
-                  <span class="titre">
-                    Formation
-                  </span>
-                </div>
-                <div class="labels operation">
-                    <span class="icon_princip" style="background-image:url(img/icon_operation.png);">
+                <div class="labels operation" onclick="mainView.router.loadPage('./operation.html')">
+                  <span class="icon_princip" style="background-image:url(img/icon_operation.png);">
                   </span>
                   <span class="titre">
                     Opération
                   </span>
                 </div>
-                <div class="labels livre" onclick="mainView.router.loadPage('./livre.html')">
-                    <span class="icon_princip" style="background-image:url(img/icon_livre.png);">
+                <div class="labels administration">
+                  <span class="icon_princip" style="background-image:url(img/icon_administration.png);">
                   </span>
                   <span class="titre">
-                    Livre
+                    Administration
+                  </span>
+                </div>
+                <div class="labels relpub">
+                    <span class="icon_princip" style="background-image:url(img/icon_relpub.png);">
+                  </span>
+                  <span class="titre">
+                    Relations publiques
+                  </span>
+                </div>
+                <div class="labels foncpub" onclick="mainView.router.loadPage('./foncpub.html')">
+                    <span class="icon_princip" style="background-image:url(img/icon_foncpub.png);">
+                  </span>
+                  <span class="titre">
+                    Fonction publique
+                  </span>
+                </div>
+                <div class="labels rh" onclick="mainView.router.loadPage('./rh.html')">
+                    <span class="icon_princip" style="background-image:url(img/icon_rh.png);">
+                  </span>
+                  <span class="titre">
+                    RH
+                  </span>
+                </div>
+                <div class="labels defense" onclick="mainView.router.loadPage('./defense.html')">
+                    <span class="icon_princip" style="background-image:url(img/icon_defense.png);">
+                  </span>
+                  <span class="titre">
+                    Défense & sécurité
                   </span>
                 </div>
               </div>
