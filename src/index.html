@@ -27,7 +27,7 @@
     <div class="panel panel-left panel-reveal">
       <div class="content-block ">
         <div class="content-block-title">Menu</div>
-        <div class="list-block fontOpen">
+        <div class="list-block ">
             <ul>
               <li><a href="index.html" class="item-link close-panel">
                   <div class="item-content">
@@ -39,7 +39,7 @@
                       </div>
                   </a>
               </li>
-              <li><a href="index.html" class="item-link close-panel">
+              <li><a href="operation.html" class="item-link close-panel">
                   <div class="item-content">
                       <div class="item-media">
                           <i class="operation iconLat icon latmenu_operation"></i></div>
@@ -49,7 +49,7 @@
                       </div>
                   </a>
               </li>
-              <li><a href="index.html" class="item-link close-panel">
+              <li><a href="administration.html" class="item-link close-panel">
                   <div class="item-content">
                       <div class="item-media">
                           <i class="administration iconLat icon latmenu_administration"></i></div>
@@ -59,7 +59,7 @@
                       </div>
                   </a>
               </li>
-              <li><a href="index.html" class="item-link close-panel">
+              <li><a href="relationspubliques.html" class="item-link close-panel">
                   <div class="item-content">
                       <div class="item-media">
                           <i class="relpub iconLat icon latmenu_relpub"></i></div>
@@ -69,7 +69,7 @@
                       </div>
                   </a>
               </li>
-              <li><a href="index.html" class="item-link close-panel">
+              <li><a href="fonctionpublique.html" class="item-link close-panel">
                   <div class="item-content">
                       <div class="item-media">
                           <i class="foncpub iconLat icon latmenu_foncpub"></i></div>
@@ -79,7 +79,7 @@
                       </div>
                   </a>
               </li>
-              <li><a href="index.html" class="item-link close-panel">
+              <li><a href="rh.html" class="item-link close-panel">
                   <div class="item-content">
                       <div class="item-media">
                           <i class="rh iconLat icon latmenu_rh"></i></div>
@@ -89,7 +89,7 @@
                       </div>
                   </a>
               </li>
-              <li><a href="index.html" class="item-link close-panel">
+              <li><a href="defense.html" class="item-link close-panel">
                   <div class="item-content">
                       <div class="item-media">
                           <i class="defense iconLat icon latmenu_defense"></i></div>
@@ -133,7 +133,7 @@
         <div class="navbar">
           <div class="navbar-inner">
             <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
-            <div class="center sliding logoBaquetPedia"><span class="couleurLogo1"> Baquet</span> <span style="color:black">Pédia</span></div>
+            <div class="center sliding logoBaquetPedia"><span class="couleurLogo1" style="font-family:Libertine-aS"> Baquet</span> <span style="color:black;font-family:Libertine-aS">Pédia</span></div>
             <div class="right">
               <!--
                 Right link contains only icon - additional "icon-only" class
@@ -164,21 +164,21 @@
                     Opération
                   </span>
                 </div>
-                <div class="labels administration">
+                <div class="labels administration" onclick="mainView.router.loadPage('./administration.html')">
                   <span class="icon_princip" style="background-image:url(img/icon_administration.png);">
                   </span>
                   <span class="titre">
                     Administration
                   </span>
                 </div>
-                <div class="labels relpub">
+                <div class="labels relpub" onclick="mainView.router.loadPage('./relationspubliques.html')">
                     <span class="icon_princip" style="background-image:url(img/icon_relpub.png);">
                   </span>
                   <span class="titre">
                     Relations publiques
                   </span>
                 </div>
-                <div class="labels foncpub" onclick="mainView.router.loadPage('./foncpub.html')">
+                <div class="labels foncpub" onclick="mainView.router.loadPage('./fonctionpublique.html')">
                     <span class="icon_princip" style="background-image:url(img/icon_foncpub.png);">
                   </span>
                   <span class="titre">

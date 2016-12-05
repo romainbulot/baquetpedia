@@ -26,28 +26,29 @@ STYLE DE LA PAGE DU MENU PRINCIPAL
 /* Suppression des bordures blanches autour du body */
 body {
 margin:0px;
+font-family: 'OpenSans-Light', Fallback, sans-serif;
 }
 
 /**************************/
 /* ICONES PAGE D'ACCUEIL */
 /**************************/
 .operation, i.operation {
-  background:#990000;
+  background:			#2B2D42;
 }
 .administration, i.administration {
-  background:#A3000A;
+  background:			#899bba;
 }
 .relpub, i.relpub {
-  background:#AD0014;
+  background:			#404344;
 }
 .foncpub, i.foncpub {
-  background:#B8001F;
+  background:			#666c6c;
 }
 .rh, i.rh {
-  background:#C20029;
+  background:				#b40d2a;
 }
 .defense, i.defense {
-  background:#CC0033;
+  background:	#EF233C;
 }
 /*****************************/
 /* FIN ICONES PAGE D'ACCUEIL*/
@@ -63,7 +64,7 @@ i.iconLat {
   background-position: center;
 }
 i.icon.latmenu_accueil {
-    background-color:  #6f4122;
+    background-color:  #1b112d;
     background-image: url("../img/icon_home.png");
 }
 i.icon.latmenu_operation {
@@ -96,7 +97,7 @@ i.icon.latmenu_livre {
     background-repeat: no-repeat;
 }
 i.icon.latmenu_sebastien {
-    background-color:  #d96371;
+    background-color:  #e4485a;
     background-image: url("../img/icon_sebastien.png");
     background-repeat: no-repeat;
 }
@@ -226,10 +227,10 @@ i.icon.latmenu_sebastien {
   }
   /* Partie droite plus foncées = container contenant les titres */
   .labels {
-    height:89%;
+    height:55%;
     display: flex;
     justify-content:flex-end;
     flex-direction: column;
-    margin : 1%;
+
   }
 }

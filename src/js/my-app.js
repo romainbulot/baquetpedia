@@ -19,6 +19,16 @@ myApp.onPageInit('about', function (page) {
     });
 });
 
+
+
+// Callbacks to run specific code for specific pages, for example for About page:
+myApp.onPageInit('temp', function (page) {
+   alert('')
+});
+
+
+
+
 // Generate dynamic page
 var dynamicPageIndex = 0;
 function createContentPage() {
